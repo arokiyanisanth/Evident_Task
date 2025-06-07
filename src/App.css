@@ -1,0 +1,66 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body{
+ background-image: linear-gradient(to right, rgb(142, 195, 202) ,white);
+}
+/* navbars colors */
+.custom-navbar-transparent {
+  background-color: transparent !important;
+  transition: background-color 0s ease;
+}
+.navbar-colored {
+  background-image: linear-gradient(to right, rgb(142, 195, 202) ,white) !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-font{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 1em 2em;
+  color: #1372ca;
+}
+/* heading in home page */
+.head-font{
+  font-family: poppins;
+  color: #003366;
+  
+}
+
+.text-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: xx-large;
+ font-weight: lighter;
+  
+}
+/* CTA Button in bottom */
+.CTA-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: xx-large;
+ font-weight: bolder;
+  
+}
+.button-color{
+  background-color: #1372ca !important;
+  color:white !important;
+   font-family: poppins;
+
+}
+.button-color:hover{
+  background-color: #003366 !important;
+  
+}
+
+/* footer color */
+.footer-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: large;
+ font-weight: bolder;
+  
+}
+
+
+
