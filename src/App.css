@@ -1,7 +1,7 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-body{
- background-image: linear-gradient(to right, rgb(142, 195, 202) ,white);
+body{ 
+background-image: linear-gradient(to right, rgb(142, 195, 202) ,white);
 }
 /* navbars colors */
 .custom-navbar-transparent {
@@ -34,6 +34,19 @@ body{
  font-weight: lighter;
   
 }
+.card-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: large;
+ font-weight: lighter;
+  
+}
+.about-text-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: xx-large;
+  
+}
 /* CTA Button in bottom */
 .CTA-font{
   font-family: poppins;
@@ -53,6 +66,10 @@ body{
   
 }
 
+.card-color{
+  background-color: #1372ca;
+}
+
 /* footer color */
 .footer-font{
   font-family: poppins;
@@ -62,5 +79,25 @@ body{
   
 }
 
+@media (max-width: 767px) {
+  .about-text-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: xx-large;
+  font-weight: lighter !important;
+  
+}
+.text-font{
+  font-family: poppins;
+ color: #003366;
+  font-size: medium;
+ font-weight: lighter;
+  
+}
+
+.mob-card{
+  margin-left: 2em;
+}
+}
 
 

@@ -56,13 +56,14 @@ const Home = () => {
     <div className="col">
      <h2 className="CTA-font">Discover how Evident's recruitment expertise can transform your business.</h2>
     </div>
-    <div className="col">
+    <div className="container">
       <h2 className="CTA-font">Explore our solutions today and experience the difference of working with a global leader in recruitment outsourcing.</h2>
+     <h2 className="text-center">  <Link to="/Service" className="btn button-color button:hover fs-5">
+  Explore Our Solutions
+</Link></h2>
     </div>
   </div>
-  <Link to="/Service" className="btn button-color button:hover fs-5">
-  Explore Our Solutions
-</Link>
+ 
 
 
 </div>
