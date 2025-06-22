@@ -1,7 +1,7 @@
 import React from "react";
 import evidentVideo from "../assets/evidentVideo.mp4";
 import {Link} from "react-router-dom";
-import Service from "./Service";
+import Service  from "./Contact"
 
 
 const Home = () => {
@@ -58,7 +58,7 @@ const Home = () => {
     </div>
     <div className="container">
       <h2 className="CTA-font">Explore our solutions today and experience the difference of working with a global leader in recruitment outsourcing.</h2>
-     <h2 className="text-center">  <Link to="/Service" className="btn button-color button:hover fs-5">
+     <h2 className="text-center">  <Link to="/Service" className="btn button-colour button:hover fs-5">
   Explore Our Solutions
 </Link></h2>
     </div>
